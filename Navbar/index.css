@@ -1,0 +1,358 @@
+*{
+  box-sizing: border-box !important;
+}
+/*
+=============
+Navbar Styles
+-------------
+*/
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /*== Nav-bars ==*/
+  .nav-s1{
+    padding: 0.5rem 3rem;
+    color: #efce;
+    background-color: #152238;
+  }
+  .nav-s2{
+    padding: 0.5rem 3rem;
+    color: white;
+    background-color: lightgreen;
+  }
+  .nav-s3{
+    padding: 0.5rem 3rem;
+    color: white;
+    background-color: #00bfff;
+    box-shadow: 0px 3px 10px 0px darkgrey
+  }
+  .nav-s4{
+    padding: 0.5rem 3rem;
+    color: black;
+    background-color: white;
+    box-shadow: -1px 1px 10px -5px grey
+  }
+  .nav-s5{
+    padding: 0.5rem 3rem;
+    color: white;
+    background-color: #007FFF;
+    box-shadow: -1px 1px 10px -5px grey
+  }
+
+  .nav-s6{
+    padding: 0.5rem 3rem;
+    color: white;
+    background-color: #fd5e53;
+    box-shadow: -1px 1px 10px -5px grey
+  }
+
+  .nav-s7{
+    padding: 0.5rem 3rem;
+    color: white;
+    background-color: #7b3c9f;
+    box-shadow: -1px 1px 10px -5px grey
+  }
+  /*== Nav-titles ==*/
+  .nav-t1 {
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: honeydew;
+    text-shadow: 2px -1px 3px darkgray;
+  }
+
+  .nav-t2{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: system-ui;
+    color: azure;
+    text-shadow: 2px 2px 3px lightseagreen;
+  }
+  .nav-t3{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: system-ui;
+    color: azure;
+    text-shadow: 2px 2px 3px lightseagreen;
+  }
+  .nav-t4{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: system-ui;
+    color: darkblue;
+  }
+  .nav-t6{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: system-ui;
+    color: whitesmoke;
+    text-shadow: 2px 2px 3px darkgray;
+  }
+  /* == Nav list styles== */
+  ul.nav-items {
+    display: flex;
+    list-style-type: none;
+    width: 50em;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    font-weight: 600;
+    }
+
+  .nav-s3 ul.nav-items{
+    margin: 5px;
+  }
+  .nav-s5 ul.nav-items{
+    margin: 10px;
+  }
+
+  /*== Nav items styles== */
+  li.nis1 {
+    background-color: #152238;
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: 1px solid wheat;
+    border-bottom: 2px solid wheat;
+    cursor: pointer;
+  }
+  li.nis1:hover{
+    color: darkcyan;
+    background-color: lemonchiffon ;
+    transition: 0.5s;
+  }
+  li.nis1.active{
+    color: darkcyan;
+    background: lemonchiffon;
+  }
+
+  li.nis2 {
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    cursor: pointer;
+  }
+  li.nis2:hover{
+    color: #2a7cce;
+    background: white;
+    transition: 0.5s;
+  }
+  li.nis2.active{
+    color: #2a7cce;
+    background: white;
+  }
+
+  li.nis3 {
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  li.nis3:hover{
+    color:whitesmoke;
+    transition: 0.3s;
+  }
+  li.nis3.active{
+    color: white;
+    background: springgreen;
+  }
+
+  li.nis4 {
+    padding: 0.8rem 1.4rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  li.nis4:hover{
+    color: white;
+    background: limegreen;
+    transition: 0.3s;
+  }
+  li.nis4.active{
+    color: white;
+    background: limegreen;
+  }
+
+  li.nis5 {
+    height: 2.5rem;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+  }
+  li.nis5:hover{
+    color: white;
+    border-bottom: 3px solid lightcoral;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: 0.2s;
+  }
+  li.nis5.active{
+    color: white;
+    border-bottom: 3px solid lightcoral;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+  li.nis6 {
+    padding: 0.8rem 1.4rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  li.nis6:hover{
+    color: white;
+    background: #2b3086;
+    transition: 0.3s;
+  }
+  li.nis6.active{
+    color: white;
+    background: #2b3086;
+  }
+
+  li.nis7 {
+    padding: 0.8rem 1.4rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  li.nis7:hover{
+    color: white;
+    background: #4B0082;
+    transition: 0.3s;
+  }
+  li.nis7.active{
+    color: white;
+    background: #4B0082;
+  }
+/*
+ Background Colors 
+ ------------------
+ */
+  .bg-ins-1{
+    background-color:  #00b4d8;;
+  }
+  .bg-ins-2{
+    background-color: #0077b6;
+  }
+  .bg-ins-3{
+    background-color: #00b4d8;
+  }
+  .bg-ins-4{
+    background-color: #90e0ef;
+  }
+  .bg-ins-5{
+    background-color: #caf0f8;
+  }
+
+  /* 
+  Border Radius 
+  -------------
+  */
+  .border-round-1{
+    border-radius: 0.2rem;
+  }
+  .border-round-2{
+    border-radius: 0.4rem;
+  }
+  .border-round-3{
+    border-radius: 0.6rem;
+  }
+  .border-round-4{
+    border-radius: 0.8rem;
+  }
+  .border-round-5{
+    border-radius: 1.2rem;
+  }
+
+  /*
+  Font Weight 
+  -----------
+  */
+  .fw-1{
+    font-weight: 600;
+  }
+  .fw-2{
+    font-weight: bold;
+  }
+  .fw-2{
+    font-weight: 900;
+  }
+
+  /* Margins */
+  .m-1{
+    margin-top: 0.8rem;
+  }
+  .m-2{
+    margin-top: 1.8rem;
+  }
+  .m-3{
+    margin-top: 3rem;
+  }
+
+  .nav-icon-mobile {
+    display: none;
+  }
+
+  span.nav-cross {
+    display: none;
+  }
+
+  /*
+  Responsive
+  ----------
+  */
+@media only screen and (max-width:775px){
+  .nav{
+    padding: 0.8rem;
+  }
+  .nav-t1,.nav-t2,.nav-t3,.nav-t4{
+    font-size: 1.6rem ;
+  }
+  ul.nav-items {
+    display: none;
+    background-color: #0ef;
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    place-content: space-evenly;
+    z-index: 100;
+  }
+  ul.show-nav-items{
+    display: grid;
+  }
+  div.nav-icon-mobile {
+    display: grid;
+    z-index: 111;
+    position: absolute;
+    right: 1rem;
+  }
+  div.hide-icon-mobile{
+    display: none !important;
+  }
+  hr.nav-icon-line {
+    width: 1.8rem;
+    margin: 5px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+  .nav-s4 hr.nav-icon-line {
+    background: black;
+    border: 1px solid black;
+  }
+  span.nav-cross {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    color: white;
+    font-size: 2rem;
+    font-family: cursive;
+  }
+  span.show-nav-cross{
+    display: block;
+  }
+}
